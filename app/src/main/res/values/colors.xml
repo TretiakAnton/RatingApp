@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="primary_color">#4A312A</color>
+
+    <color name="primary_color_dark">#2F1D1A</color>
+
+    <color name="tan_background">#FFF7DA</color>
+
+    <color name="tan_background_dark">#AFA993</color>
+
+    <color name="category_numbers">#FD8E09</color>
+
+    <color name="category_numbers_dark">#A15B06</color>
+
+    <color name="category_family">#379237</color>
+
+    <color name="category_family_dark">#1B471B</color>
+
+    <color name="teal">#30D2F1</color>
+
+    <color name="teal_dark">#237585</color>
+
+    <color name="black">#000000</color>
+
+</resources>
