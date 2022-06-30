@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/rootFragment3">
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.example.ratingapp.screens.favourite.FavouriteFragment"
+        android:label="FavouriteFragment" />
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.ratingapp.screens.start.StartFragment"
+        android:label="StartFragment" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.ratingapp.screens.splash.SplashFragment"
+        android:label="fragment_splash2"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_rootFragment3"
+            app:destination="@id/rootFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/rootFragment3"
+        android:name="com.example.ratingapp.screens.root.RootFragment"
+        android:label="fragment_root"
+        tools:layout="@layout/fragment_root" />
+</navigation>

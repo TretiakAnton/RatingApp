@@ -65,4 +65,9 @@
     <!-- Vocabulary word for the grandmother family member [CHAR LIMIT=20] -->
     <string name="family_grandmother">grandmother</string>
 
+    <string name="family_grandfather">GRandfa</string>
+    <string name="splash">splash</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
